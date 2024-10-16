@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelCreatedEventHandler", "HotelCreatedEventHandler\HotelCreatedEventHandler.csproj", "{3ABB8C08-34FF-479E-9D2B-1CFCDADEF33C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelCreatedEventHandler.Test", "HotelCreatedEventHandler.Test\HotelCreatedEventHandler.Test.csproj", "{46CB9156-599A-4A43-A0DD-452A124A9A59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ABB8C08-34FF-479E-9D2B-1CFCDADEF33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABB8C08-34FF-479E-9D2B-1CFCDADEF33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABB8C08-34FF-479E-9D2B-1CFCDADEF33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABB8C08-34FF-479E-9D2B-1CFCDADEF33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46CB9156-599A-4A43-A0DD-452A124A9A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CB9156-599A-4A43-A0DD-452A124A9A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46CB9156-599A-4A43-A0DD-452A124A9A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46CB9156-599A-4A43-A0DD-452A124A9A59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C04E356E-1219-4B5D-ACDB-60517A1F6684}
+	EndGlobalSection
+EndGlobal
