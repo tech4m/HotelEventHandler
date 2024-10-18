@@ -16,6 +16,14 @@ public class HotelCreatedEventHandler
     public async Task Handler(SNSEvent snsEvent)
     {
 
+        var host = Environment.GetEnvironmentVariable("host");
+        var userName = Environment.GetEnvironmentVariable("userName");
+        var password = Environment.GetEnvironmentVariable("password");
+
+        var indexName = Environment.GetEnvironmentVariable("indexName");
+        var region = Environment.GetEnvironmentVariable("AWS_REGION");
+        var dbClient = new AmazonDynamoDBClient(RegionEndpoint.GetBySystemName(region));
+        var table = Table.LoadTable(dbClient, "hotel-created-events-ids");
 
 
         var connSettings = new ConnectionSettings(new Uri(host));
